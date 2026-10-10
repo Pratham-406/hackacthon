@@ -1,0 +1,1043 @@
+{
+  "users": {
+    "rahul123": {
+      "uid": "rahul123",
+      "fullName": "Rahul Commuter",
+      "email": "rahul@smartpool.local",
+      "phone": "",
+      "role": "passenger",
+      "provider": "password",
+      "createdAt": "2026-10-10T05:57:36.501464+00:00",
+      "updatedAt": "2026-10-10T05:57:36.501464+00:00"
+    },
+    "driver456": {
+      "uid": "driver456",
+      "fullName": "Dinesh Driver",
+      "email": "driver@smartpool.local",
+      "phone": "",
+      "role": "driver",
+      "provider": "password",
+      "createdAt": "2026-10-10T05:57:36.503131+00:00",
+      "updatedAt": "2026-10-10T05:57:36.503131+00:00"
+    },
+    "admin789": {
+      "uid": "admin789",
+      "fullName": "Admin User",
+      "email": "admin@smartpool.local",
+      "phone": "",
+      "role": "admin",
+      "provider": "password",
+      "createdAt": "2026-10-10T05:57:36.505655+00:00",
+      "updatedAt": "2026-10-10T05:57:36.505655+00:00"
+    }
+  },
+  "rides": {
+    "req-rahul-01": {
+      "rideId": "req-rahul-01",
+      "request_id": "req-rahul-01",
+      "userId": "rahul123",
+      "passengerName": "Rahul Commuter",
+      "passenger_name": "Rahul Commuter",
+      "passenger_phone": "",
+      "pickup": "Pune Kiwale Entry",
+      "origin_name": "Pune Kiwale Entry",
+      "destination": "Panvel Highway Exit",
+      "destination_name": "Panvel Highway Exit",
+      "origin_engine": "Pune",
+      "destination_engine": "Panvel",
+      "direct_distance_km": 100.0,
+      "seatsRequested": 1,
+      "seats_requested": 1,
+      "maxDetourPercent": 15.0,
+      "max_detour_percent": 15.0,
+      "status": "dispatched",
+      "assignedDriverId": null,
+      "dispatchId": "disp_1791611856_0a0115",
+      "is_demo": false,
+      "createdAt": "2026-10-10T05:57:36.427215+00:00",
+      "updatedAt": "2026-10-10T05:57:36.442554+00:00"
+    },
+    "Test Rider": {
+      "rideId": "Test Rider",
+      "request_id": "Test Rider",
+      "userId": "guest",
+      "passengerName": "Test Rider",
+      "passenger_name": "Test Rider",
+      "passenger_phone": "",
+      "pickup": "Pune Kiwale Entry",
+      "origin_name": "Pune Kiwale Entry",
+      "destination": "Panvel Highway Exit",
+      "destination_name": "Panvel Highway Exit",
+      "origin_engine": "Pune",
+      "destination_engine": "Panvel",
+      "direct_distance_km": 100.0,
+      "seatsRequested": 1,
+      "seats_requested": 1,
+      "maxDetourPercent": 15.0,
+      "max_detour_percent": 15.0,
+      "status": "dispatched",
+      "assignedDriverId": null,
+      "dispatchId": "disp_1791611856_9c9eb1",
+      "is_demo": false,
+      "createdAt": "2026-10-10T05:57:36.514570+00:00",
+      "updatedAt": "2026-10-10T05:57:36.524469+00:00"
+    },
+    "demo-rahul": {
+      "rideId": "demo-rahul",
+      "request_id": "demo-rahul",
+      "userId": "demo-rahul",
+      "passengerName": "Rahul",
+      "passenger_name": "Rahul",
+      "passenger_phone": "",
+      "pickup": "Pune Kiwale Entry",
+      "origin_name": "Pune Kiwale Entry",
+      "destination": "Lonavala Interchange",
+      "destination_name": "Lonavala Interchange",
+      "origin_engine": "Pune",
+      "destination_engine": "Lonavala",
+      "direct_distance_km": 58.0,
+      "seatsRequested": 1,
+      "seats_requested": 1,
+      "maxDetourPercent": 15.0,
+      "max_detour_percent": 15.0,
+      "status": "dispatched",
+      "assignedDriverId": null,
+      "dispatchId": "disp_1791611856_476f3e",
+      "is_demo": true,
+      "createdAt": "2026-10-10T05:57:36.536515+00:00",
+      "updatedAt": "2026-10-10T05:57:36.549979+00:00"
+    },
+    "demo-priya": {
+      "rideId": "demo-priya",
+      "request_id": "demo-priya",
+      "userId": "demo-user",
+      "passengerName": "Priya",
+      "passenger_name": "Priya",
+      "passenger_phone": "",
+      "pickup": "Talegaon Toll Plaza",
+      "origin_name": "Talegaon Toll Plaza",
+      "destination": "Panvel Highway Exit",
+      "destination_name": "Panvel Highway Exit",
+      "origin_engine": "Talegaon",
+      "destination_engine": "Panvel",
+      "direct_distance_km": 79.0,
+      "seatsRequested": 1,
+      "seats_requested": 1,
+      "maxDetourPercent": 15.0,
+      "max_detour_percent": 15.0,
+      "status": "dispatched",
+      "assignedDriverId": null,
+      "dispatchId": "disp_1791611856_476f3e",
+      "is_demo": true,
+      "createdAt": "2026-10-10T05:57:36.538954+00:00",
+      "updatedAt": "2026-10-10T05:57:36.554524+00:00"
+    },
+    "demo-aman": {
+      "rideId": "demo-aman",
+      "request_id": "demo-aman",
+      "userId": "demo-user",
+      "passengerName": "Aman",
+      "passenger_name": "Aman",
+      "passenger_phone": "",
+      "pickup": "Lonavala Interchange",
+      "origin_name": "Lonavala Interchange",
+      "destination": "Mumbai Dadar TT Circle",
+      "destination_name": "Mumbai Dadar TT Circle",
+      "origin_engine": "Lonavala",
+      "destination_engine": "Mumbai",
+      "direct_distance_km": 92.0,
+      "seatsRequested": 1,
+      "seats_requested": 1,
+      "maxDetourPercent": 15.0,
+      "max_detour_percent": 15.0,
+      "status": "dispatched",
+      "assignedDriverId": null,
+      "dispatchId": "disp_1791611856_476f3e",
+      "is_demo": true,
+      "createdAt": "2026-10-10T05:57:36.540654+00:00",
+      "updatedAt": "2026-10-10T05:57:36.559306+00:00"
+    },
+    "First": {
+      "rideId": "First",
+      "request_id": "First",
+      "userId": "guest",
+      "passengerName": "First",
+      "passenger_name": "First",
+      "passenger_phone": "",
+      "pickup": "Pune Kiwale Entry",
+      "origin_name": "Pune Kiwale Entry",
+      "destination": "Lonavala Interchange",
+      "destination_name": "Lonavala Interchange",
+      "origin_engine": "Pune",
+      "destination_engine": "Lonavala",
+      "direct_distance_km": 58.0,
+      "seatsRequested": 1,
+      "seats_requested": 1,
+      "maxDetourPercent": 15.0,
+      "max_detour_percent": 15.0,
+      "status": "pending",
+      "assignedDriverId": null,
+      "dispatchId": null,
+      "is_demo": false,
+      "createdAt": "2026-10-10T05:57:36.584008+00:00",
+      "updatedAt": "2026-10-10T05:57:36.584008+00:00"
+    },
+    "Second": {
+      "rideId": "Second",
+      "request_id": "Second",
+      "userId": "guest",
+      "passengerName": "Second",
+      "passenger_name": "Second",
+      "passenger_phone": "",
+      "pickup": "Panvel Highway Exit",
+      "origin_name": "Panvel Highway Exit",
+      "destination": "Mumbai Dadar TT Circle",
+      "destination_name": "Mumbai Dadar TT Circle",
+      "origin_engine": "Panvel",
+      "destination_engine": "Mumbai",
+      "direct_distance_km": 50.0,
+      "seatsRequested": 1,
+      "seats_requested": 1,
+      "maxDetourPercent": 15.0,
+      "max_detour_percent": 15.0,
+      "status": "pending",
+      "assignedDriverId": null,
+      "dispatchId": null,
+      "is_demo": false,
+      "createdAt": "2026-10-10T05:57:36.590924+00:00",
+      "updatedAt": "2026-10-10T05:57:36.590924+00:00"
+    }
+  },
+  "drivers": {
+    "driver456": {
+      "userId": "driver456",
+      "fullName": "Dinesh Driver",
+      "phone": "",
+      "vehicleNumber": "MH-14-SP-1001",
+      "vehicleType": "Sedan",
+      "totalSeats": 4,
+      "availableSeats": 4,
+      "availabilityStatus": "active",
+      "createdAt": "2026-10-10T05:57:36.504405+00:00",
+      "updatedAt": "2026-10-10T05:57:36.504405+00:00"
+    }
+  },
+  "dispatches": {
+    "disp_1791611856_0a0115": {
+      "dispatchId": "disp_1791611856_0a0115",
+      "matchedRideIds": [
+        "req-rahul-01"
+      ],
+      "driverAssignment": null,
+      "optimizedRoute": {
+        "stops_count": 2,
+        "stops": [
+          {
+            "rider_id": "Rahul Commuter",
+            "stop_type": "PICKUP",
+            "location": "Pune",
+            "km_coordinate": 0.0,
+            "lat": 18.6508,
+            "lng": 73.7438
+          },
+          {
+            "rider_id": "Rahul Commuter",
+            "stop_type": "DROPOFF",
+            "location": "Panvel",
+            "km_coordinate": 100.0,
+            "lat": 19.0188,
+            "lng": 73.1098
+          }
+        ],
+        "leaflet_waypoints": [
+          [
+            18.6508,
+            73.7438
+          ],
+          [
+            19.0188,
+            73.1098
+          ]
+        ],
+        "geojson": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    73.7438,
+                    18.6508
+                  ],
+                  [
+                    73.1098,
+                    19.0188
+                  ]
+                ]
+              },
+              "properties": {
+                "corridor": "Pune\u2013Mumbai Expressway",
+                "distance_km": 100.0,
+                "stops_count": 2
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.7438,
+                  18.6508
+                ]
+              },
+              "properties": {
+                "rider_id": "Rahul Commuter",
+                "stop_type": "PICKUP",
+                "location": "Pune",
+                "km_coordinate": 0.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.1098,
+                  19.0188
+                ]
+              },
+              "properties": {
+                "rider_id": "Rahul Commuter",
+                "stop_type": "DROPOFF",
+                "location": "Panvel",
+                "km_coordinate": 100.0
+              }
+            }
+          ]
+        },
+        "pooled_distance_km": 100.0,
+        "pooled_time_minutes": 100.0,
+        "unpooled_total_distance_km": 100.0,
+        "distance_saved_km": 0.0,
+        "distance_saved_pct": 0.0,
+        "co2_saved_kg": 0.0
+      },
+      "routeStops": [
+        {
+          "rider_id": "Rahul Commuter",
+          "stop_type": "PICKUP",
+          "location": "Pune",
+          "km_coordinate": 0.0,
+          "lat": 18.6508,
+          "lng": 73.7438
+        },
+        {
+          "rider_id": "Rahul Commuter",
+          "stop_type": "DROPOFF",
+          "location": "Panvel",
+          "km_coordinate": 100.0,
+          "lat": 19.0188,
+          "lng": 73.1098
+        }
+      ],
+      "computedFareBreakdown": {
+        "total_pooled_fare_inr": 1400.0,
+        "total_pooled_fare_paise": 140000,
+        "total_solo_cost_inr": 1400.0,
+        "total_savings_inr": 0.0,
+        "platform_deficit_paise": 0,
+        "comparative_splits": {
+          "shapley_fares_inr": {
+            "Rahul Commuter": 1400.0
+          },
+          "equal_split_inr": {
+            "Rahul Commuter": 1400.0
+          },
+          "distance_proportional_inr": {
+            "Rahul Commuter": 1400.0
+          }
+        },
+        "shapley_breakdown": {
+          "Rahul Commuter": {
+            "rider_id": "Rahul Commuter",
+            "pickup": "Pune",
+            "dropoff": "Panvel",
+            "distance_km": 100.0,
+            "baseline_solo_fare": 1400.0,
+            "shared_synergy_discount": 0.0,
+            "corridor_density_rebate": 0.0,
+            "final_shapley_fare": 1400.0,
+            "net_savings_amount": 0.0,
+            "savings_pct": 0.0,
+            "plain_english_reasons": [
+              "Your base private cab would have cost \u20b91,400.00 for 100.0 km.",
+              "Your detour is only +0.0%, well inside our 15.0% convenience guarantee."
+            ]
+          }
+        }
+      },
+      "totalDistance": 100.0,
+      "detourInformation": {
+        "is_compliant": true,
+        "detour_cap_pct": 15.0,
+        "max_detour_pct_observed": 0.0,
+        "violations": {},
+        "rider_metrics": {
+          "Rahul Commuter": {
+            "rider_id": "Rahul Commuter",
+            "direct_distance_km": 100.0,
+            "in_cab_distance_km": 100.0,
+            "direct_time_min": 100.0,
+            "in_cab_time_min": 100.0,
+            "detour_pct": 0.0,
+            "is_compliant": true,
+            "status": "PASS"
+          }
+        }
+      },
+      "dispatchStatus": "dispatched",
+      "createdAt": "2026-10-10T05:57:36.441365+00:00"
+    },
+    "disp_1791611856_9c9eb1": {
+      "dispatchId": "disp_1791611856_9c9eb1",
+      "matchedRideIds": [
+        "Test Rider"
+      ],
+      "driverAssignment": null,
+      "optimizedRoute": {
+        "stops_count": 2,
+        "stops": [
+          {
+            "rider_id": "Test Rider",
+            "stop_type": "PICKUP",
+            "location": "Pune",
+            "km_coordinate": 0.0,
+            "lat": 18.6508,
+            "lng": 73.7438
+          },
+          {
+            "rider_id": "Test Rider",
+            "stop_type": "DROPOFF",
+            "location": "Panvel",
+            "km_coordinate": 100.0,
+            "lat": 19.0188,
+            "lng": 73.1098
+          }
+        ],
+        "leaflet_waypoints": [
+          [
+            18.6508,
+            73.7438
+          ],
+          [
+            19.0188,
+            73.1098
+          ]
+        ],
+        "geojson": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    73.7438,
+                    18.6508
+                  ],
+                  [
+                    73.1098,
+                    19.0188
+                  ]
+                ]
+              },
+              "properties": {
+                "corridor": "Pune\u2013Mumbai Expressway",
+                "distance_km": 100.0,
+                "stops_count": 2
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.7438,
+                  18.6508
+                ]
+              },
+              "properties": {
+                "rider_id": "Test Rider",
+                "stop_type": "PICKUP",
+                "location": "Pune",
+                "km_coordinate": 0.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.1098,
+                  19.0188
+                ]
+              },
+              "properties": {
+                "rider_id": "Test Rider",
+                "stop_type": "DROPOFF",
+                "location": "Panvel",
+                "km_coordinate": 100.0
+              }
+            }
+          ]
+        },
+        "pooled_distance_km": 100.0,
+        "pooled_time_minutes": 100.0,
+        "unpooled_total_distance_km": 100.0,
+        "distance_saved_km": 0.0,
+        "distance_saved_pct": 0.0,
+        "co2_saved_kg": 0.0
+      },
+      "routeStops": [
+        {
+          "rider_id": "Test Rider",
+          "stop_type": "PICKUP",
+          "location": "Pune",
+          "km_coordinate": 0.0,
+          "lat": 18.6508,
+          "lng": 73.7438
+        },
+        {
+          "rider_id": "Test Rider",
+          "stop_type": "DROPOFF",
+          "location": "Panvel",
+          "km_coordinate": 100.0,
+          "lat": 19.0188,
+          "lng": 73.1098
+        }
+      ],
+      "computedFareBreakdown": {
+        "total_pooled_fare_inr": 1400.0,
+        "total_pooled_fare_paise": 140000,
+        "total_solo_cost_inr": 1400.0,
+        "total_savings_inr": 0.0,
+        "platform_deficit_paise": 0,
+        "comparative_splits": {
+          "shapley_fares_inr": {
+            "Test Rider": 1400.0
+          },
+          "equal_split_inr": {
+            "Test Rider": 1400.0
+          },
+          "distance_proportional_inr": {
+            "Test Rider": 1400.0
+          }
+        },
+        "shapley_breakdown": {
+          "Test Rider": {
+            "rider_id": "Test Rider",
+            "pickup": "Pune",
+            "dropoff": "Panvel",
+            "distance_km": 100.0,
+            "baseline_solo_fare": 1400.0,
+            "shared_synergy_discount": 0.0,
+            "corridor_density_rebate": 0.0,
+            "final_shapley_fare": 1400.0,
+            "net_savings_amount": 0.0,
+            "savings_pct": 0.0,
+            "plain_english_reasons": [
+              "Your base private cab would have cost \u20b91,400.00 for 100.0 km.",
+              "Your detour is only +0.0%, well inside our 15.0% convenience guarantee."
+            ]
+          }
+        }
+      },
+      "totalDistance": 100.0,
+      "detourInformation": {
+        "is_compliant": true,
+        "detour_cap_pct": 15.0,
+        "max_detour_pct_observed": 0.0,
+        "violations": {},
+        "rider_metrics": {
+          "Test Rider": {
+            "rider_id": "Test Rider",
+            "direct_distance_km": 100.0,
+            "in_cab_distance_km": 100.0,
+            "direct_time_min": 100.0,
+            "in_cab_time_min": 100.0,
+            "detour_pct": 0.0,
+            "is_compliant": true,
+            "status": "PASS"
+          }
+        }
+      },
+      "dispatchStatus": "dispatched",
+      "createdAt": "2026-10-10T05:57:36.522159+00:00"
+    },
+    "disp_1791611856_476f3e": {
+      "dispatchId": "disp_1791611856_476f3e",
+      "matchedRideIds": [
+        "demo-rahul",
+        "demo-priya",
+        "demo-aman"
+      ],
+      "driverAssignment": null,
+      "optimizedRoute": {
+        "stops_count": 6,
+        "stops": [
+          {
+            "rider_id": "Rahul",
+            "stop_type": "PICKUP",
+            "location": "Pune",
+            "km_coordinate": 0.0,
+            "lat": 18.6508,
+            "lng": 73.7438
+          },
+          {
+            "rider_id": "Priya",
+            "stop_type": "PICKUP",
+            "location": "Talegaon",
+            "km_coordinate": 21.0,
+            "lat": 18.7303,
+            "lng": 73.6766
+          },
+          {
+            "rider_id": "Rahul",
+            "stop_type": "DROPOFF",
+            "location": "Lonavala",
+            "km_coordinate": 58.0,
+            "lat": 18.7557,
+            "lng": 73.4091
+          },
+          {
+            "rider_id": "Aman",
+            "stop_type": "PICKUP",
+            "location": "Lonavala",
+            "km_coordinate": 58.0,
+            "lat": 18.7557,
+            "lng": 73.4091
+          },
+          {
+            "rider_id": "Priya",
+            "stop_type": "DROPOFF",
+            "location": "Panvel",
+            "km_coordinate": 100.0,
+            "lat": 19.0188,
+            "lng": 73.1098
+          },
+          {
+            "rider_id": "Aman",
+            "stop_type": "DROPOFF",
+            "location": "Mumbai",
+            "km_coordinate": 150.0,
+            "lat": 19.0178,
+            "lng": 72.8478
+          }
+        ],
+        "leaflet_waypoints": [
+          [
+            18.6508,
+            73.7438
+          ],
+          [
+            18.7303,
+            73.6766
+          ],
+          [
+            18.7557,
+            73.4091
+          ],
+          [
+            18.7557,
+            73.4091
+          ],
+          [
+            19.0188,
+            73.1098
+          ],
+          [
+            19.0178,
+            72.8478
+          ]
+        ],
+        "geojson": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    73.7438,
+                    18.6508
+                  ],
+                  [
+                    73.6766,
+                    18.7303
+                  ],
+                  [
+                    73.4091,
+                    18.7557
+                  ],
+                  [
+                    73.4091,
+                    18.7557
+                  ],
+                  [
+                    73.1098,
+                    19.0188
+                  ],
+                  [
+                    72.8478,
+                    19.0178
+                  ]
+                ]
+              },
+              "properties": {
+                "corridor": "Pune\u2013Mumbai Expressway",
+                "distance_km": 150.0,
+                "stops_count": 6
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.7438,
+                  18.6508
+                ]
+              },
+              "properties": {
+                "rider_id": "Rahul",
+                "stop_type": "PICKUP",
+                "location": "Pune",
+                "km_coordinate": 0.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.6766,
+                  18.7303
+                ]
+              },
+              "properties": {
+                "rider_id": "Priya",
+                "stop_type": "PICKUP",
+                "location": "Talegaon",
+                "km_coordinate": 21.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.4091,
+                  18.7557
+                ]
+              },
+              "properties": {
+                "rider_id": "Rahul",
+                "stop_type": "DROPOFF",
+                "location": "Lonavala",
+                "km_coordinate": 58.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.4091,
+                  18.7557
+                ]
+              },
+              "properties": {
+                "rider_id": "Aman",
+                "stop_type": "PICKUP",
+                "location": "Lonavala",
+                "km_coordinate": 58.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  73.1098,
+                  19.0188
+                ]
+              },
+              "properties": {
+                "rider_id": "Priya",
+                "stop_type": "DROPOFF",
+                "location": "Panvel",
+                "km_coordinate": 100.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  72.8478,
+                  19.0178
+                ]
+              },
+              "properties": {
+                "rider_id": "Aman",
+                "stop_type": "DROPOFF",
+                "location": "Mumbai",
+                "km_coordinate": 150.0
+              }
+            }
+          ]
+        },
+        "pooled_distance_km": 150.0,
+        "pooled_time_minutes": 150.0,
+        "unpooled_total_distance_km": 229.0,
+        "distance_saved_km": 79.0,
+        "distance_saved_pct": 34.5,
+        "co2_saved_kg": 15.01
+      },
+      "routeStops": [
+        {
+          "rider_id": "Rahul",
+          "stop_type": "PICKUP",
+          "location": "Pune",
+          "km_coordinate": 0.0,
+          "lat": 18.6508,
+          "lng": 73.7438
+        },
+        {
+          "rider_id": "Priya",
+          "stop_type": "PICKUP",
+          "location": "Talegaon",
+          "km_coordinate": 21.0,
+          "lat": 18.7303,
+          "lng": 73.6766
+        },
+        {
+          "rider_id": "Rahul",
+          "stop_type": "DROPOFF",
+          "location": "Lonavala",
+          "km_coordinate": 58.0,
+          "lat": 18.7557,
+          "lng": 73.4091
+        },
+        {
+          "rider_id": "Aman",
+          "stop_type": "PICKUP",
+          "location": "Lonavala",
+          "km_coordinate": 58.0,
+          "lat": 18.7557,
+          "lng": 73.4091
+        },
+        {
+          "rider_id": "Priya",
+          "stop_type": "DROPOFF",
+          "location": "Panvel",
+          "km_coordinate": 100.0,
+          "lat": 19.0188,
+          "lng": 73.1098
+        },
+        {
+          "rider_id": "Aman",
+          "stop_type": "DROPOFF",
+          "location": "Mumbai",
+          "km_coordinate": 150.0,
+          "lat": 19.0178,
+          "lng": 72.8478
+        }
+      ],
+      "computedFareBreakdown": {
+        "total_pooled_fare_inr": 2100.0,
+        "total_pooled_fare_paise": 210000,
+        "total_solo_cost_inr": 3206.0,
+        "total_savings_inr": 1106.0,
+        "platform_deficit_paise": 0,
+        "comparative_splits": {
+          "shapley_fares_inr": {
+            "Rahul": 504.0,
+            "Priya": 728.0,
+            "Aman": 868.0
+          },
+          "equal_split_inr": {
+            "Rahul": 700.0,
+            "Priya": 700.0,
+            "Aman": 700.0
+          },
+          "distance_proportional_inr": {
+            "Rahul": 531.88,
+            "Priya": 724.45,
+            "Aman": 843.67
+          }
+        },
+        "shapley_breakdown": {
+          "Rahul": {
+            "rider_id": "Rahul",
+            "pickup": "Pune",
+            "dropoff": "Lonavala",
+            "distance_km": 58.0,
+            "baseline_solo_fare": 812.0,
+            "shared_synergy_discount": 246.4,
+            "corridor_density_rebate": 61.6,
+            "final_shapley_fare": 504.0,
+            "net_savings_amount": 308.0,
+            "savings_pct": 37.93,
+            "plain_english_reasons": [
+              "Your base private cab would have cost \u20b9812.00 for 58.0 km.",
+              "Sharing the corridor with Priya reduced your fare by \u20b9246.40.",
+              "Rahul pays \u20b90 towards Aman's trip because their segments do not overlap.",
+              "Platform corridor density rebate of \u20b961.60 applied for expressway carpooling.",
+              "Your detour is only +0.0%, well inside our 15.0% convenience guarantee."
+            ]
+          },
+          "Priya": {
+            "rider_id": "Priya",
+            "pickup": "Talegaon",
+            "dropoff": "Panvel",
+            "distance_km": 79.0,
+            "baseline_solo_fare": 1106.0,
+            "shared_synergy_discount": 302.4,
+            "corridor_density_rebate": 75.6,
+            "final_shapley_fare": 728.0,
+            "net_savings_amount": 378.0,
+            "savings_pct": 34.18,
+            "plain_english_reasons": [
+              "Your base private cab would have cost \u20b91,106.00 for 79.0 km.",
+              "Sharing the corridor with Rahul, Aman reduced your fare by \u20b9302.40.",
+              "Platform corridor density rebate of \u20b975.60 applied for expressway carpooling.",
+              "Your detour is only +0.0%, well inside our 15.0% convenience guarantee."
+            ]
+          },
+          "Aman": {
+            "rider_id": "Aman",
+            "pickup": "Lonavala",
+            "dropoff": "Mumbai",
+            "distance_km": 92.0,
+            "baseline_solo_fare": 1288.0,
+            "shared_synergy_discount": 336.0,
+            "corridor_density_rebate": 84.0,
+            "final_shapley_fare": 868.0,
+            "net_savings_amount": 420.0,
+            "savings_pct": 32.61,
+            "plain_english_reasons": [
+              "Your base private cab would have cost \u20b91,288.00 for 92.0 km.",
+              "Sharing the corridor with Priya reduced your fare by \u20b9336.00.",
+              "Aman pays \u20b90 towards Rahul's trip because their segments do not overlap.",
+              "Platform corridor density rebate of \u20b984.00 applied for expressway carpooling.",
+              "Your detour is only +0.0%, well inside our 15.0% convenience guarantee."
+            ]
+          }
+        }
+      },
+      "totalDistance": 150.0,
+      "detourInformation": {
+        "is_compliant": true,
+        "detour_cap_pct": 15.0,
+        "max_detour_pct_observed": 0.0,
+        "violations": {},
+        "rider_metrics": {
+          "Rahul": {
+            "rider_id": "Rahul",
+            "direct_distance_km": 58.0,
+            "in_cab_distance_km": 58.0,
+            "direct_time_min": 58.0,
+            "in_cab_time_min": 58.0,
+            "detour_pct": 0.0,
+            "is_compliant": true,
+            "status": "PASS"
+          },
+          "Priya": {
+            "rider_id": "Priya",
+            "direct_distance_km": 79.0,
+            "in_cab_distance_km": 79.0,
+            "direct_time_min": 79.0,
+            "in_cab_time_min": 79.0,
+            "detour_pct": 0.0,
+            "is_compliant": true,
+            "status": "PASS"
+          },
+          "Aman": {
+            "rider_id": "Aman",
+            "direct_distance_km": 92.0,
+            "in_cab_distance_km": 92.0,
+            "direct_time_min": 92.0,
+            "in_cab_time_min": 92.0,
+            "detour_pct": 0.0,
+            "is_compliant": true,
+            "status": "PASS"
+          }
+        }
+      },
+      "dispatchStatus": "dispatched",
+      "createdAt": "2026-10-10T05:57:36.547458+00:00"
+    }
+  },
+  "trip_history": {
+    "th_1791611856_68fffe": {
+      "tripId": "th_1791611856_68fffe",
+      "userId": "rahul123",
+      "relatedRideId": "req-rahul-01",
+      "dispatchId": "disp_1791611856_0a0115",
+      "pickup": "Pune Kiwale Entry",
+      "destination": "Panvel Highway Exit",
+      "fare": 1400.0,
+      "tripStatus": "completed",
+      "completionTimestamp": "2026-10-10T05:57:36.443450+00:00"
+    },
+    "th_1791611856_79d9b7": {
+      "tripId": "th_1791611856_79d9b7",
+      "userId": "guest",
+      "relatedRideId": "Test Rider",
+      "dispatchId": "disp_1791611856_9c9eb1",
+      "pickup": "Pune Kiwale Entry",
+      "destination": "Panvel Highway Exit",
+      "fare": 1400.0,
+      "tripStatus": "completed",
+      "completionTimestamp": "2026-10-10T05:57:36.526533+00:00"
+    },
+    "th_1791611856_2fb198": {
+      "tripId": "th_1791611856_2fb198",
+      "userId": "demo-rahul",
+      "relatedRideId": "demo-rahul",
+      "dispatchId": "disp_1791611856_476f3e",
+      "pickup": "Pune Kiwale Entry",
+      "destination": "Lonavala Interchange",
+      "fare": 504.0,
+      "tripStatus": "completed",
+      "completionTimestamp": "2026-10-10T05:57:36.552281+00:00"
+    },
+    "th_1791611856_6d84fd": {
+      "tripId": "th_1791611856_6d84fd",
+      "userId": "demo-user",
+      "relatedRideId": "demo-priya",
+      "dispatchId": "disp_1791611856_476f3e",
+      "pickup": "Talegaon Toll Plaza",
+      "destination": "Panvel Highway Exit",
+      "fare": 728.0,
+      "tripStatus": "completed",
+      "completionTimestamp": "2026-10-10T05:57:36.556938+00:00"
+    },
+    "th_1791611856_ff5e73": {
+      "tripId": "th_1791611856_ff5e73",
+      "userId": "demo-user",
+      "relatedRideId": "demo-aman",
+      "dispatchId": "disp_1791611856_476f3e",
+      "pickup": "Lonavala Interchange",
+      "destination": "Mumbai Dadar TT Circle",
+      "fare": 868.0,
+      "tripStatus": "completed",
+      "completionTimestamp": "2026-10-10T05:57:36.561846+00:00"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: smartpool-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements-demo.txt"
+    startCommand: "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: FIREBASE_PROJECT_ID
+        sync: false
+      - key: FIREBASE_SERVICE_ACCOUNT_JSON
+        sync: false
