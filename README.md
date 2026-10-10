@@ -85,4 +85,106 @@ py tests/export_fixture.py
 node tests/check_frontend_adapter.mjs
 ```
 
-See TEST_RESULTS.md for checks performed and remaining limits.
+See TEST_RESULTS.md for checks performed and remaining limits. 
+🚗 Driver Portal System
+
+A modern, scalable fleet and driver management portal built to streamline trip assignments, booking workflows, and real-time operations.
+
+📌 Project Overview
+
+The Driver Portal provides a seamless interface for dispatchers and drivers to manage, track, and complete trips efficiently. The current release fully implements the end-to-end Booking Process, establishing the core operational foundation for future driver management capabilities.
+
+✅ Completed Features (Current Release)
+
+🎫 Booking Process Engine
+
+Trip Creation & Dispatch: Create and assign trips based on driver availability and route parameters.
+
+Booking Workflow: Complete booking life-cycle management (Pending ➔ Confirmed ➔ Assigned ➔ In Progress ➔ Completed / Cancelled).
+
+Route & Location Integration: Address geocoding and basic route plotting for pickup and drop-off locations.
+
+Fare & Booking Calculation: Automated trip estimate and pricing breakdown during booking creation.
+
+Real-time Status Updates: Instant booking status synchronization between the dispatch server and driver clients.
+
+🚀 Upcoming Features & Roadmap
+
+The following modules are planned for subsequent releases to complete the Driver Portal ecosystem:
+
+Phase 1: Driver Profile & Compliance Management
+
+[ ] Onboarding & Verification: Digital document upload (driver's license, vehicle registration, insurance).
+
+[ ] Compliance Tracking: Automated alerts for document expiration and license renewals.
+
+[ ] Shift & Availability Toggle: Online/offline status management for drivers.
+
+Phase 2: Live Tracking & Navigation
+
+[ ] GPS Real-Time Tracking: Live location streaming via WebSockets/MQTT.
+
+[ ] Turn-by-Turn Navigation: In-app integration with Mapbox / Google Maps SDK.
+
+[ ] Geofencing: Automatic arrival and departure triggers at pickup and drop-off zones.
+
+Phase 3: Electronic Proof of Delivery (PoD)
+
+[ ] Digital Signatures: Capture customer signatures upon trip completion.
+
+[ ] Photo & Inspection Capture: Upload proof-of-delivery photos and vehicle damage logs.
+
+[ ] Barcode / QR Code Scanning: Fast verification of packages and cargo.
+
+Phase 4: Financials & Analytics
+
+[ ] Driver Earnings Dashboard: Daily, weekly, and monthly payout breakdowns.
+
+[ ] Hours of Service (HOS) Logs: Electronic logging logs to monitor driving hours and rest periods.
+
+[ ] Driver Safety & Performance Scorecard: Analytics on punctuality, customer ratings, and driving habits.
+
+🛠️ Technology Stack
+
+Frontend: React / React Native / Vue.js
+
+Backend: Node.js (Express / NestJS) / Python (FastAPI)
+
+Database: PostgreSQL (with PostGIS for spatial data) / MongoDB
+
+Real-Time Data: WebSockets / Redis
+
+Containerization: Docker & Docker Compose
+
+💻 Getting Started
+
+Prerequisites
+
+Docker & Docker Compose
+
+Node.js (v18+)
+
+Running locally with Docker
+
+Clone the repository:
+
+git clone https://github.com/your-username/driver-portal.git
+cd driver-portal
+
+
+Set up Environment Variables:
+
+cp .env.example .env
+
+
+Start the application and database:
+
+docker-compose up -d --build
+
+
+Verify services:
+
+Web Portal: http://localhost:3000
+
+API Gateway / Backend: http://localhost:5000
+https://github.com/HimanshuAttarde/Driver-Interface-UI
